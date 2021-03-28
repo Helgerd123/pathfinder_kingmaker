@@ -1,7 +1,7 @@
 {
   "Id": "FencingFix",
   "DisplayName": "Fencing Fix",
-  "Author": "Zmitser",
+  "Author": "Helgerd123",
   "Version": "0.0.1",
   "ManagerVersion": "0.23.0",
   "EntryMethod": "FencingFix.Main.Load",
