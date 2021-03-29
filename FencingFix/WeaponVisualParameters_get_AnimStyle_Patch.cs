@@ -1,4 +1,4 @@
-﻿// Copyright (c) 2021 Zmitser Japhimic
+﻿// Copyright (c) 2021 Helgerd123
 // This code is licensed under MIT license (see LICENSE for details)
 
 using Harmony12;
@@ -12,12 +12,12 @@ namespace FencingFix
     {
         private static void Postfix(ref WeaponAnimationStyle __result)
         {
-            if (__result != WeaponAnimationStyle.Fencing)
-            {
-                return;
-            }
+            var mappedAnimation = Main.AnimationMap[__result];
 
-            __result = WeaponAnimationStyle.SlashingOneHanded;
+            if (mappedAnimation != WeaponAnimationStyle.None)
+            {
+                __result = mappedAnimation;
+            }
         }
     }
 }
