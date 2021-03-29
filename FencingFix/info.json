@@ -2,7 +2,7 @@
   "Id": "FencingFix",
   "DisplayName": "Fencing Fix",
   "Author": "Helgerd123",
-  "Version": "0.0.1",
+  "Version": "0.0.2",
   "ManagerVersion": "0.23.0",
   "EntryMethod": "FencingFix.Main.Load",
   "HomePage": "https://github.com/Helgerd123/pathfinder_kingmaker",
